@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "NHL Western Conference Final Game 5 Highlights | Stars vs. Golden Knights - May 27, 2023 - SPORTSNET",
+            "description": "Ty Dellandrea scored two goals in the third period and Jake Oettinger turned aside 27 shots to help the Dallas Stars force Game 6 with a 4-2 victory against ...",
+            "url": "https://www.youtube.com/watch?v=1Zv6peOteRY",
+            "urlToImage": "https://i.ytimg.com/vi/1Zv6peOteRY/maxresdefault.jpg",
+            "publishedAt": "2023-05-28T02:59:29Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "SciTechDaily"
+            },
+            "author": null,
+            "title": "From Forgotten Formula to Climate Game Changer: A New Tool for Converting Carbon Dioxide - SciTechDaily",
+            "description": "Scientists from Cornell University have revisited a century-old electrochemical equation, the Cottrell equation, to aid in the conversion of atmospheric carbon dioxide into a functional product, and in managing this greenhouse gas. This equation, which bears …",
+            "url": "https://scitechdaily.com/from-forgotten-formula-to-climate-game-changer-a-new-tool-for-converting-carbon-dioxide/",
+            "urlToImage": "https://scitechdaily.com/images/Carbon-Capture-Technology-Chemical-Engineering.jpg",
+            "publishedAt": "2023-05-27T20:43:57Z",
+            "content": "Scientists at Cornell University have re-purposed the 120-year-old Cottrell equation to understand the reactions carbon dioxide undergoes when subjected to electrochemistry, with the goal of converti… [+3075 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Eurogamer.net"
+            },
+            "author": "Matt Wales",
+            "title": "Microsoft lays out appeal against CMA's Activision Blizzard acquisition block - Eurogamer.net",
+            "description": "Just as it said it would, Microsoft has appealed the CMA's decision to block its acquisition of Activision Blizzard, an…",
+            "url": "https://www.eurogamer.net/microsoft-lays-out-appeal-against-cmas-activision-blizzard-acquisition-block",
+            "urlToImage": "https://assetsio.reedpopcdn.com/activision-blizzard_p0yB13e.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+            "publishedAt": "2023-05-26T19:12:15Z",
+            "content": "Just as it said it would, Microsoft has appealed the CMA's decision to block its acquisition of Activision Blizzard, and its summary of arguments is now available for scrutiny.\r\nIn April, after month… [+2490 chars]"
+        }
+    ]
+}
