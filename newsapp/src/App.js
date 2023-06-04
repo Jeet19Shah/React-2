@@ -9,17 +9,18 @@ export default class App extends Component {
     return (
       <div>
         <BrowserRouter>
-        <Navbar />
-        <News pageSize={6} country={"in"} catagory="SCIENCE" />
+        <>
+          <Navbar />
           <Routes>
-            <Route key="General" exact path='/General' element={<News pageSize={6} country='in' catagory="General" />} />
-            <Route key="Business" exact path='/Business' element={<News pageSize={6} country='in' catagory="Business" />} />
-            <Route key="Entertainment" exact path='/Entertainment' element={<News pageSize={6} country='in' catagory="Entertainment" />} />
-            <Route key="Health" exact path='/Health' element={<News pageSize={6} country='in' catagory="Health" />} />
-            <Route key="Science" exact path='/Science' element={<News pageSize={6} country='in' catagory="Science" />} />
-            <Route key="Sports" exact path='/Sports' element={<News pageSize={6} country='in' catagory="Sports" />} />
-            <Route key="Technology" exact path='/Technology' element={<News pageSize={6} country='in' catagory="Technology" />} />
+            <Route exact path='/General'       element={<News key="General"        pageSize={6} country='in' catagory="General" />} />
+            <Route exact path='/Business'      element={<News key="Business"       pageSize={6} country='in' catagory="Business" />} />
+            <Route exact path='/Entertainment' element={<News key="Entertainment"  pageSize={6} country='in' catagory="Entertainment" />} />
+            <Route exact path='/Health'        element={<News key="Health"         pageSize={6} country='in' catagory="Health" />} />
+            <Route exact path='/Science'       element={<News key="Science"        pageSize={6} country='in' catagory="Science" />} />
+            <Route exact path='/Sports'        element={<News key="Sports"         pageSize={6} country='in' catagory="Sports" />} />
+            <Route exact path='/Technology'    element={<News key="Technology"     pageSize={6} country='in' catagory="Technology" />} />
           </Routes>
+          </>
         </BrowserRouter>
 
         
